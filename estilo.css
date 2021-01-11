@@ -1,0 +1,230 @@
+html,
+body {
+    margin: 0;
+}
+
+.logo {
+    width: 60px;
+    position: absolute;
+    top: 5px;
+    margin-left: 5%;
+    filter: invert(100%);
+}
+
+.menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.cormenu {
+    color: white;
+    text-decoration: none;
+}
+
+#menu1 {
+    background-color: #335a8a;
+    color: white;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 1px 2px 5px black;
+}
+
+li {
+    float: left;
+    padding: 20 10 20 10;
+    font-size: 20px;
+}
+
+li:hover {
+    background-color: #1e3757;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#imagem_fundo {
+    background: url("img/fundo.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 50px;
+    line-height: 0.6;
+    text-shadow: 2px 2px 2px black;
+}
+
+#sub {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px black;
+}
+
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+}
+
+.icone {
+    width: 51px;
+    margin: 15px;
+}
+
+.icone:hover {
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+#obj {
+    font-size: 35px;
+}
+
+#objetivos {
+    background-color: #335a8a;
+    padding: 20px;
+    color: white;
+}
+
+#tipo {
+    padding: 30px;
+}
+
+section {
+    padding: 20px;
+    float: left;
+}
+
+.sobremim {
+    background-color: #335a8a;
+    padding: 50px;
+    color: white;
+}
+
+.eu {
+    width: 200px;
+    height: auto;
+    margin-left: 150px;
+    border-radius: 100px;
+    box-shadow: 1px 2px 5px black;
+}
+
+#nome {
+    font-size: 25px;
+}
+
+.coluna {
+    float: left;
+    padding: 2.5%;
+    position: relative;
+    width: 40%;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.coluna4 {
+    float: left;
+    padding: 0.5%;
+    position: relative;
+    width: 23%;
+    margin: 6px;
+}
+
+.colunadois {
+    float: left;
+    padding: 2.5%;
+    position: relative;
+    width: 35%;
+    margin-left: 150px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    float: left;
+    width: 100%;
+    height: 30%;
+}
+
+@media screen and (max-width: 800px) {
+    html,
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    .left .right .bottom .top {
+        width: 90%;
+    }
+    #menu1 {
+        display: none;
+    }
+    #titulo {
+        color: white;
+        padding-top: 20%;
+        font-size: 50px;
+        line-height: 0.9;
+    }
+    #imagem_fundo {
+        height: 500px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .eu {
+        width: 250px;
+        margin-left: 10%;
+        border-radius: 250px;
+    }
+    .videomobile {
+        width: auto;
+        height: 250px;
+        padding: 0px;
+        margin: 0px;
+        padding-left: 23px;
+    }
+    #obj {
+        font-size: 35px;
+        padding: 100px;
+        padding-bottom: 0px;
+    }
+    #objetivos {
+        padding: 0px;
+    }
+    .coluna,
+    .coluna4,
+    .colunadois {
+        width: 90%;
+    }
+    .centralizado {
+        margin-left: 14px;
+        padding: 0px;
+        text-align: center;
+    }
+    .justificado1 {
+        margin: 10px;
+        padding: 0px;
+        text-align: justify;
+    }
+    .justificado2 {
+        margin: 0px;
+        margin-left: 15px;
+        padding: 0px;
+        text-align: justify;
+    }
+    footer {
+        width: 100%;
+        height: 55%;
+    }
+}
