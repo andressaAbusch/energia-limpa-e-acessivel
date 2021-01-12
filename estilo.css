@@ -154,6 +154,15 @@ section {
     text-align: center;
 }
 
+.coluna3 {
+    float: left;
+    padding: 1%;
+    position: relative;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
 .coluna4 {
     float: left;
     padding: 0.5%;
