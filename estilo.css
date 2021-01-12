@@ -171,12 +171,12 @@ section {
     margin: 6px;
 }
 
-.colunadois {
-    float: left;
+.colunadois #nome  {
+    float: right;
     padding: 2.5%;
     position: relative;
     width: 35%;
-    margin-left: 150px;
+
 }
 
 footer {
