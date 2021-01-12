@@ -133,8 +133,9 @@ section {
 }
 
 #nome {
+    margin-right: 500px;   
     font-size: 25px;
-}
+}   
 
 .coluna {
     float: left;
