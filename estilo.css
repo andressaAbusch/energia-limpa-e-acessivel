@@ -146,6 +146,8 @@ section {
 
 .justificado {
     text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .centralizado {
