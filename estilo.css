@@ -19,12 +19,12 @@ body {
     margin-top: 0px;
 }
 
-.cormenu {
+.cor_menu {
     color: white;
     text-decoration: none;
 }
 
-#menu1 {
+#menu_1 {
     background-color: #335a8a;
     color: white;
     height: 65px;
@@ -100,12 +100,8 @@ li:hover {
 
 #objetivos {
     background-color: #335a8a;
-    padding: 15px;
+    padding: 10px;
     color: white;
-}
-
-#tipo {
-    padding: 30px;
 }
 
 section {
@@ -122,7 +118,7 @@ section {
     width: 100%;
 }
 
-.sobremim {
+.sobre_mim {
     background-color: #335a8a;
     padding: 50px;
     color: white;
@@ -144,7 +140,7 @@ section {
 #nome {
     width: auto;
     font-size: 25px;
-}   
+}
 
 .coluna {
     float: left;
@@ -159,11 +155,16 @@ section {
     margin-right: 25px;
 }
 
+.justificado_1 {
+    text-align: justify;
+    margin: 15px;
+}
+
 .centralizado {
     text-align: center;
 }
 
-.coluna3 {
+.coluna_3 {
     float: left;
     padding: 1%;
     position: relative;
@@ -173,20 +174,11 @@ section {
     margin-right: 10%;
 }
 
-.coluna4 {
+.coluna_4 {
     float: left;
     padding: 0.5%;
     position: relative;
     width: 24%
-    
-}
-
-.colunadois #nome  {
-    float: right;
-    padding: 2.5%;
-    position: relative;
-    width: 35%;
-
 }
 
 footer {
@@ -203,12 +195,8 @@ footer {
         margin: 0px;
         padding: 0px;
     }
-
-    .left .right .bottom .top {
-        width: 100%;
-    }
     
-    #menu1 {
+    #menu_1 {
         display: none;
     }
 
@@ -241,7 +229,7 @@ footer {
         margin-bottom: 2%;
     }
 
-    .videomobile {
+    .video_mobile {
         width: 230px;
         height: 250px;
         padding: 2%;
@@ -261,16 +249,16 @@ footer {
     }
 
     .coluna,
-    .coluna4,
-    .colunadois {
+    .coluna_4,
+    .coluna_2 {
         width: 90%;
     }
 
-    .colunadois {
+    .coluna_2 {
         margin: 25px 15px 25px 15px;
     }
 
-    .sobremim {
+    .sobre_mim {
         width: 100%;
         padding: 0px;
         margin: 1%;
@@ -282,27 +270,15 @@ footer {
         position: relative;
         width: 95%;
     }
-    .centralizado {
-        margin-left: 0px;
-        padding: 0px;
-        text-align: center;
-    }
 
-    .justificado1 {
+    .justificado_1 {
         margin: 10px;
-        padding: 0px;
-        text-align: justify;
-    }
-
-    .justificado2 {
-        margin: 0px;
-        margin-left: 15px;
         padding: 0px;
         text-align: justify;
     }
 
     footer {
         width: 100%;
-        height: 55%;
+        height: 45%;
     }
 }
